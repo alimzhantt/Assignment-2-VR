@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>23010300 - PA2</title>
+    <style>
+        html, body { margin: 0; height: 100%; overflow: hidden; background: #111; }
+        canvas { width: 100vw; height: 100vh; display: block; }
+        #status {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: #fff;
+            font-family: monospace;
+            font-size: 14px;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 6px 12px;
+            border-radius: 4px;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="c"></canvas>
+    <div id="status">ID: 23010300</div>
+    
+    <!-- Подключение glMatrix 2.8.1 (обязательно перед index.js) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix-min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
